@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BizLand Theme</title>
+  <style>
+      .mapouter{
+        position: relative;
+        text-align: right;
+        height: 100%;
+        width: 100%;
+    }
+      .gmap_canvas {
+        overflow: hidden;
+        background: none!important;
+        height: 100%;
+        width: 100%;
+    }
+    </style>
+</head>
+
+<body id="home" class="scrollspy">
+  <header class="main-header">
+    <div class="primary-overlay">
+      <div class="navbar-fixed">
+        <nav id="navbar" class="transparent">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#home" class="brand-logo">Bizland</a>
+              <a href="#" data-activates="mobile-nav" class="button-collapse">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#!" class="btn blue">Download</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!--This is the side nav-->
+      <ul class="side-nav" id="mobile-nav">
+        <h4 class="blue-grey darken-3 center">Bizland</h4>
+        <li><a class="divider"></a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#testimonials">Testimonial</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!--Showcase-->
+      <div class="container" style="margin-top: 100px;">
+        <div class="row">
+          <div class="col s12">
+            <h5>You Found the ...</h5>
+            <h1>Right Place to Start!</h1>
+            <p class="flow-text">To take your bussiness to the next level with our services that have taken companies to the fortune 500</p>
+            <br>
+            <a href="#about" class="btn btn-large white black-text hide-on-med-and-down">learn more</a>
+            <a href="#about" class="white-text center">
+              <i class="material-icons medium scroll-icons">arrow_drop_down_circle</i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--Section: Boxed-->
+  <section class="section-boxed center">
+    <div class="row">
+      <div class="col s12 m6 l3 blue white-text box">
+        <i class="material-icons medium">show_chart</i>
+        <h5>Grow Your Business</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatum?</p>
+      </div>
+      <div class="col s12 m6 l3 deep-purple white-text box">
+        <i class="material-icons medium">people</i>
+        <h5>Professional Advisors</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatum?</p>
+      </div>
+      <div class="col s12 m6 l3 teal white-text box">
+        <i class="material-icons medium">verified_user</i>
+        <h5>Secure your company</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatum?</p>
+      </div>
+      <div class="col s12 m6 l3 amber darken-4 white-text box">
+        <i class="material-icons medium">account_balance</i>
+        <h5>Multiply your income</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatum?</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Section about-->
+  <div class="section section-about grey lighten-3 center scrollspy" id="about">
+    <div class="container">
+      <h2>About Bizland</h2>
+      <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos deserunt velit odit dolor deleniti, eum commodi explicabo harum exercitationem iure.</p>
+      <div class="row">
+        <div class="col s12 m6">
+          <img src="img/people.jpg" alt="" class="responsive-img circle">
+        </div>
+        <div class="col s12 m5 offset-m1">
+        <br>
+          <ul class="collection with-header z-depth-4">
+            <li class="collection-header">
+              <h5>Services</h5>
+            </li>
+            <li class="collection-item"><i class="material-icons left">check</i>Business Consultation
+            </li>
+            <li class="collection-item"><i class="material-icons left">check</i>Financial Analytics
+            </li>
+            <li class="collection-item"><i class="material-icons left">check</i>Security Services
+            </li>
+            <li class="collection-item"><i class="material-icons left">check</i>Marketing an Advertising
+            </li>
+            <li class="collection-item"><i class="material-icons left">check</i>Internet Services
+            </li>
+            <li class="collection-item"><i class="material-icons left">check</i>Accounting Services
+            </li>
+          </ul>
+        </div>
+        <br>
+      </div>
+    </div>
+  </div>
+
+  <!--Testimonial Section-->
+  <section id="testimonials" class="section section-testimonials blue white-text center scrollspy">
+    <div class="container">
+      <h2>What Our Client Says</h2>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card grey lighten-4 black-text z-depth-4">
+            <div class="card-content">
+              <p><em>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab impedit facilis doloremque doloribus inventore magni sunt corrupti architecto nobis nesciunt.</em></p>
+            </div>
+            <div class="card-action">
+              <p>Christiansen Group</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card grey lighten-4 black-text z-depth-4">
+            <div class="card-content">
+              <p><em>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab impedit facilis doloremque doloribus inventore magni sunt corrupti architecto nobis nesciunt.</em></p>
+            </div>
+            <div class="card-action">
+              <p>Beth Direct Paradigm Manager</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card grey lighten-4 black-text z-depth-4">
+            <div class="card-content">
+              <p><em>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab impedit facilis doloremque doloribus inventore magni sunt corrupti architecto nobis nesciunt.</em></p>
+            </div>
+            <div class="card-action">
+              <p>Forward Optimization Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Googlemap -->
+  <div class="section section-contact center scrollspy" id="contact">
+    <div id="googlemap">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=American%20Tesol&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <a href="https://www.emojilib.com/divi-discount-code-elegant-themes-coupon/">wordpress theme coupon</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Contacts-->
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 offset-m6">
+          <div class="card-panel z-depth-4">
+            <h4>Contact us</h4>
+            <div class="input-field"><input type="text" id="name"><label for="name">Name</label></div>
+            <div class="input-field"><input type="text" id="email"><label for="email">Email</label></div>
+            <div class="input-field"><input type="text" id="phone"><label for="phone">Phone</label></div>
+            <div class="input-field"><textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Message</label>
+            </div>
+            <input type="submit" value="submit" class="btn blue-grey">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer Section-->
+  <footer class="page-footer blue-grey darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+            <h5>location</h5>
+            <p>Bizland INC</p>
+            <p>023 Franecki Islands</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">links</h5>
+              <ul>
+                <li><a href="#home" class="white-text">Home</a></li>
+                <li><a href="#about" class="white-text">About</a></li>
+                <li><a href="#testimonials" class="white-text">Testimonials</a></li>
+                <li><a href="#contacts" class="white-text">Contacts</a></li>
+              </ul>
+          </div>
+      </div>
+    </div>
+    <div class="footer-copyright blue-grey darken-4">
+      <div class="container">Bizland Theme and copy 2019</div>
+      <a href="#home" class="grey-text text-lighten-4 right">
+        <i class="material-icons left">keyboard_arrow_up</i>
+      </a>
+    </div>
+  </footer>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Init Sidenav
+      $('.button-collapse').sideNav();
+
+      // This will be the condition of your navbar
+      $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 50) { 
+              $('nav').removeClass('transparent');
+              $('nav').addClass('purple');
+          } else {
+              $('nav').addClass('transparent');
+          }
+        });
+    
+      //Scroll Fire
+      const options = [
+        {
+          selector: '.main-text', 
+          offset: 0,
+          callback: function(el) {
+            Materialize.fadeInImage($(el));
+          }
+        }
+      ];
+
+      Materialize.scrollFire(options);
+      //Init scrollspy
+      $('.scrollspy').scrollSpy();
+
+    });
+  </script>
+</body>
+</html>
